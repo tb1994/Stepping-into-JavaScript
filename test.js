@@ -1,1 +1,0 @@
-alert("Hello World! It's me, the cutest student Brian has EVER had!");
