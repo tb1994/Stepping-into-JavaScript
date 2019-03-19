@@ -9,3 +9,5 @@ github pages-- https://tb1994.github.io/iop-4xx/
 1/31/2019-----added files from html5 boilerplate v6.1.0 to application, preparing for development.--added google analytics code pushed and tested on production server.
 
 2/6/2019---- moved script tag to the bottom of index file, added some text as well. created test.js file to store the alert script. and added github link to readme.
+
+3/18/2019------ prepared index for project. added js file and populated it with functions that populate the html file. added animate.css cdn. givin animations to the text on window load. 
