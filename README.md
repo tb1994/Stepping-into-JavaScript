@@ -11,3 +11,6 @@ github pages-- https://tb1994.github.io/iop-4xx/
 2/6/2019---- moved script tag to the bottom of index file, added some text as well. created test.js file to store the alert script. and added github link to readme.
 
 3/18/2019------ prepared index for project. added js file and populated it with functions that populate the html file. added animate.css cdn. givin animations to the text on window load. 
+
+4/18/2019------- created 401-0 branch, created appData object, moved Title and tagLine into appDatta, refactored the initalizeApplication function
+with the corresponding appData values.
