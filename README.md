@@ -16,3 +16,5 @@ github pages-- https://tb1994.github.io/iop-4xx/
 with the corresponding appData values.
 
 4/24/2019----- added progress bar to app.js,  my code from video was commented out for not working proper , copied and pasted code from github.
+
+4/24/2019------added style.css for the login . added login itself into the app.js. placed style.css link above the bootstrap.
