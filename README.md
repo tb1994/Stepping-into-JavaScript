@@ -14,3 +14,5 @@ github pages-- https://tb1994.github.io/iop-4xx/
 
 4/18/2019------- created 401-0 branch, created appData object, moved Title and tagLine into appDatta, refactored the initalizeApplication function
 with the corresponding appData values.
+
+4/24/2019----- added progress bar to app.js,  my code from video was commented out for not working proper , copied and pasted code from github.
