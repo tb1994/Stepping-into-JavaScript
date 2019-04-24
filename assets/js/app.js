@@ -61,6 +61,7 @@ function displayPB() {
      setTimeout(displayPB, 50);
  } else {
      timerCount = 0;
+     document.body.innerHTML= formLogin();
      return false;
  }
 }
@@ -87,3 +88,19 @@ function displayPB(){
     return false;
   }
   }*/
+
+  function formLogin() {
+    return '<form id="loginFrm" name="loginFrm" action="#" class="animated zoomIn"><div class="form-group"><label for="email">Email address:</label><input type="email" class="form-control" id="email" value="me@there.com"></div><div class="form-group"><label for="pwd">Password:</label><input type="password" class="form-control" id="pwd" value="dfdf"></div><div class="form-check"><label class="form-check-label"><input class="form-check-input" type="checkbox">Remember me </label></div><button id="loginBtn" type="submit" class="btn btn-primary" onclick="validateLogin()">Submit</button></form>';
+}
+
+function validateLogin(){
+  var email=document.getElementById("email").value;
+  var password=document.getElementById("pwd").value;
+  if (email !== '' && password !== ''){
+    document.body.innerHTML = '<main class="animated zoomIn"><h1 id="inNow">We are IN now</h1></main>';
+
+  }else{
+    alert('bad');
+  }
+  return false;
+}
