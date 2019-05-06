@@ -20,3 +20,5 @@ with the corresponding appData values.
 4/24/2019------added style.css for the login . added login itself into the app.js. placed style.css link above the bootstrap.
 
 5/6/2019----------- added functionallity for the function interface regarding to the menu that replaced the 'we are in page'.
+
+5/6/2019B------------ added quotes array , made some css changes/improvements and cleaned up code.
